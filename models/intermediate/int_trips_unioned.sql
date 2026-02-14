@@ -1,10 +1,10 @@
 with green_tripdata as (
-    select *
+    select *, 'Green' as service_type
     from {{ ref('stg_green_tripdata') }}
 ),
 
 yellow_tripdata as (
-    select *
+    select *, 'Yellow' as service_type
     from {{ ref('stg_yellow_tripdata') }}
 ),
 
