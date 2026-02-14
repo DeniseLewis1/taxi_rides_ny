@@ -7,4 +7,6 @@ sources:
     schema: kestra_zoomcamp
     tables:
       - name: yellow_tripdata_partitioned
+        description: Raw yellow taxi trip data
       - name: green_tripdata_partitioned
+        description: Raw green taxi trip data
